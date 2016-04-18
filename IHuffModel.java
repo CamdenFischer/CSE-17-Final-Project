@@ -1,3 +1,6 @@
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.File;
 
 /**
  * The interface for the model that can be attached to a HuffmanView. Most of
@@ -9,18 +12,6 @@
  * @author Owen Astrachan
  */
 
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.File;
-
-// -------------------------------------------------------------------------
-/**
- * Write a one-sentence summary of your class here. Follow it with additional
- * details about its purpose, what abstraction it represents, and how to use it.
- *
- * @author Camden Fischer
- * @version Apr 11, 2016
- */
 public interface IHuffModel
     extends IHuffConstants
 {
